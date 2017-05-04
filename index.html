@@ -371,7 +371,7 @@
 					</div>
 				</div>
 
-				<div class="col-sm-12 col-md-12 col-xs-12 col-lg-6 header_main2 suremarketing" id="header_main">
+				<div class="col-sm-12 col-md-12 col-xs-12 col-lg-6 header_main2 suremarketing" id="header_main" style="display: none;">
 					<center><div class="header_info">
 					<div class="header_intro_1">
 						<span class="titlez pull-left">Who I Am?</span><br><br>
@@ -635,6 +635,7 @@
 
 			<script type="text/javascript">
 	  		$(document).ready(function(){
+	  			$('.header_main2').show();
   				window.sr = ScrollReveal();
 
   				sr.reveal('.suremarketing', { 
