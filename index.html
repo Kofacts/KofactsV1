@@ -322,17 +322,21 @@
 							<div class="container">
 							<div class="row">
 								<div class="col-lg-4 col-sm-4 col-md-4 col-xs-4">
-									<button style="height: 50px; width: 50px; border-radius: 50px; border: none; outline: none; background: #3b5998"><span class="fa fa-facebook fa-2x"></span></button>
+									<a href="http://facebook.com/koye.raph"><button style="height: 50px; width: 50px; border-radius: 50px; border: none; outline: none; background: #3b5998"><span class="fa fa-facebook fa-2x"></span></button></a>
 								</div>
 
 
 								<div class="col-lg-4 col-sm-4 col-md-4 col-xs-4">
+									<a href="http://twitter.com/obodugo_rapheal">
 									<button style="height: 50px; width: 50px; border-radius: 50px; border: none; outline: none; background: #0084b4"><span class="fa fa-twitter fa-2x"></span></button>
+									</a>
 								</div>
 
 
 								<div class="col-lg-4 col-sm-4 col-md-4 col-xs-4">
+								<a href="http://github.com/kofacts">
 									<button style="height: 50px; width: 50px; border-radius: 50px; border: none; outline: none; background: black"><span class="fa fa-github fa-2x"></span></button>
+									</a>
 								</div>
 							</div>
 							</div>
@@ -367,7 +371,7 @@
 					</div>
 				</div>
 
-				<div class="col-sm-12 col-md-12 col-xs-12 col-lg-6 header_main2" id="header_main">
+				<div class="col-sm-12 col-md-12 col-xs-12 col-lg-6 header_main2 suremarketing" id="header_main">
 					<center><div class="header_info">
 					<div class="header_intro_1">
 						<span class="titlez pull-left">Who I Am?</span><br><br>
@@ -423,7 +427,7 @@
 		
 			<div class="row underforstack" style="">
 			<div class="col-xs-12 col-md-12 col-sm-12 col-lg-4 first_stack">
-			<canvas class="loader"></canvas>
+			<canvas class="loader "></canvas>
 
 				<p class="stack_grade" style="font-size: 30px; font-family: 'Lato'; color: white">
 					Frontend Dev.<br>
@@ -433,7 +437,7 @@
 			</div>
 
 			<div class="col-xs-12 col-md-12 col-sm-12 col-lg-4 second_stack" style="font-size: 30px; font-family: 'Lato'; color: white">
-				<canvas class="loader1"></canvas>
+				<canvas class="loader1 "></canvas>
 				<p>
 				Backend Dev.<br>
 				<span style="font-size: 13px"><em>( PHP,Python Django, Node JS )</em></span>
@@ -627,6 +631,41 @@
 			<script type="text/javascript" src="incs/assets/cyclp/js/jquery.classyloader.js"></script>
 			<!-- Bootstrap JavaScript -->
 			<script src="incs/assets/bs/js/bootstrap.js"></script>
+			<script type="text/javascript" src="incs/assets/scrollreveal.min.js"></script>
+
+			<script type="text/javascript">
+	  		$(document).ready(function(){
+  				window.sr = ScrollReveal();
+
+  				sr.reveal('.suremarketing', { 
+				duration: 2000,
+				origin: 'left',
+				easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
+				rotate   : { z: 10 },
+				scale: 0.7,
+				 },50);
+
+  				sr.reveal('.loader', { 
+				duration: 2500,
+				origin: 'left',
+				rotate   : { z: 10 },
+				scale: 0.7,
+				 },50);
+  				sr.reveal('.loader1', { 
+				duration: 3000,
+				origin: 'left',
+				rotate   : { z: 10 },
+				scale: 0.7,
+				 },50);
+  				sr.reveal('.loader2', { 
+				duration: 3500,
+				origin: 'left',
+				rotate   : { z: 10 },
+				scale: 0.7,
+				 },50);
+
+  			});
+			</script>
 				
 
 		<script>
