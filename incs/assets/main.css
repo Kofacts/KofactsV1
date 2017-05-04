@@ -168,13 +168,27 @@ body
 		height: 100%;
 		font-size: 15px;
 	}
+	.sec2_row
+	{
+		width: 100%
+	}
+}
+@media screen and (max-width: 1000px)
+{
+	.sec2_row
+	{
+		width: 100%;
+	}
 }
 @media (max-width: @screen-xs) {
     body{font-size: 10px;}
 }
 
-@media (max-width: @screen-sm) {
-    body{font-size: 14px;}
+@media screen and (max-width: @screen-sm) {
+    .sec2_row
+    {
+    	width: 100%;
+    }
 }
 .titlez
 {
