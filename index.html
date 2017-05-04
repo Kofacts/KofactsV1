@@ -27,7 +27,7 @@
 		}
 		</style>	
 	</head>
-	<body>
+	<body data-spy="scroll" data-target=".navbar_edited" data-offset="50">
 
 	<!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -266,12 +266,20 @@
 <!-- Modal End -->
 
 
-	<div class="slide_nav" id="slide_nav" style="background: url('incs/images/biggrit.jpg'); border-left: 2px solid black">
+	<div class="slide_nav navbar_edited" id="slide_nav" style="background: url('incs/images/biggrit.jpg'); border-left: 2px solid black">
 
-		<a href="#nav">
-		<center><span class="fa fa-close pull-right fa-2x close_menu" id="close_menu"  style="border: 1px solid black"></span>
+		<a href="#nav" style="padding-bottom:10px;">
+		<center><span class="fa fa-close pull-right fa-2x close_menu" id="close_menu"  ></span>
 		</center>
 		</a>
+		<br>
+		<hr>
+
+		<ul style="text-decoration: none; list-style-type: none; font-family: 'Lato'; font-size: 30px; color: white">
+			<li id="nav"><a href="#section1">My Stack</a></li><hr>
+			<li id="nav"><a href="#project_section">Projects</a></li><hr>
+			<li id="nav"><a href="#contact">Contact Me</a></li><hr>
+		</ul>
 
 		<div class="nav" id="nav">
 			
@@ -420,7 +428,7 @@
 		</section>
 	
 
-		<section class="stack_view" style="background: linear-gradient(rgba(20,20,20, .8),rgba(20,20,20, .8)),url('incs/images/ban2.jpg'); padding-bottom: 50px; background-size:100% 100%; background-position: center center; ">
+		<section class="stack_view" id="section1" style="background: linear-gradient(rgba(20,20,20, .8),rgba(20,20,20, .8)),url('incs/images/ban2.jpg'); padding-bottom: 50px; background-size:100% 100%; background-position: center center; ">
 		<div class="container forstack"><br>
 		<div class="stack_head">
 			<p style="">..</p>
@@ -562,7 +570,7 @@
 		</section>
 
 
-		<section style="padding-top: 40px; border-bottom: 1px solid black;background: linear-gradient(rgba(20,20,20, .8),rgba(20,20,20, .8)),url('incs/images/ban2.jpg'); margin-bottom: 20px; padding-bottom: 30px;">
+		<section id="contact" style="padding-top: 40px; border-bottom: 1px solid black;background: linear-gradient(rgba(20,20,20, .8),rgba(20,20,20, .8)),url('incs/images/ban2.jpg'); margin-bottom: 20px; padding-bottom: 30px;">
 
 			<!-- Contact us section -->
 			<div class="container">
