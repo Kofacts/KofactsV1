@@ -69,6 +69,11 @@ i.zmdi
 	padding-left: 10px;
 
 }
+i.zmdi1
+{
+	padding-left: 0px !important;
+
+}
 i.zmdi-long-arrow-down
 {
 	font-size: 23px;
@@ -123,6 +128,13 @@ div#menuBar2
 	outline:0px !important;
 
 }
+a.socialLink
+{
+	padding-bottom: 5px;
+	text-decoration: none;
+	color: white;
+	padding-left: 0px !important
+}
 section#section2,section#section3,section#section4
 {
 	margin-top: 0px !important;
@@ -171,8 +183,16 @@ span#workContentTitle
 {
 	font-family: 'Bodoni',Lato,arial;
 	font-size: 40px;
-	padding-top: 50px !important;
-	margin-top: 50px !important
+	padding-top: 0px !important;
+	margin-top: 50px !important;
+}
+div#job1,div#job2,div#job3,div#job4
+{
+	background: linear-gradient(rgba(20,20,20, .8),rgba(20,20,20, .8)),url(../assets/images/mp3horse.PNG);
+	background-position: center center;
+	height: 250px;
+	margin-left: 10px !important;
+	width: 300px;
 }
 span#workSubContent
 {
@@ -206,6 +226,7 @@ span#workContent2
 	text-align: justify;
 	padding-top: 30px;
 	font-size: 20px;
+	margin-bottom: 100px;
 }
 span#workContent23
 {
@@ -307,7 +328,36 @@ ul#menuBar2Nav > li
     right: 0;
     transition: right 1s;
 }
-
+ul#jobSection
+{
+	width: 100% !important;
+	text-decoration: none;
+	list-style-type: none !important;
+	padding-top: 30px !important;
+	margin-left: 0px !important;
+	padding-left: 0px !important;
+}
+li#job
+{
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 4vw;
+	list-style-type: none !important;
+	border:1px solid rgba(20, 75, 143, 0.8);
+	background: rgba(20, 75, 143, 0.8);
+	margin-left: 0px !important;
+	color: white;
+	padding-bottom: 20px;
+	margin-bottom: 20px !important;
+}
+span#jobsAreaTitle
+{
+	font-size: 3vw;
+	font-family: 'FuturaB';
+	padding-top: 30px;
+	border-bottom: 2px solid #E2277E;
+}
 /** some media query */
 @media (max-width: 768px)
 {
@@ -395,5 +445,9 @@ ul#menuBar2Nav > li
 	section#section4
 	{
 		background: white;
+	}
+	span#headerConnect
+	{
+		font-size: 5vw !important;
 	}
 }

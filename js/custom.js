@@ -6,16 +6,16 @@ $(document).ready(function()
 		afterLoad: function(anchorLink, index){
 		var loadedSection = $(this);
 		//using anchorLink
-		if(window.matchMedia('(max-width: 768px)').matches && anchorLink == 'slide2'){
+		if(window.matchMedia('(max-width: 768px)').matches && anchorLink == 'slide2' || window.matchMedia('(max-width: 768px)').matches && anchorLink == 'slide6'){
 			//change the menu color to white
 			$('button#toggleBar').css('color','white');
 		}
 		else
 		{
 			$('button#toggleBar').css('color','black');
-			
+
 		}
 	}
 	});
 	
-})
+});
